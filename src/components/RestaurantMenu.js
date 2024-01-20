@@ -7,7 +7,7 @@ import {
   MENU_ITEM_TYPE_KEY,
   RESTAURANT_TYPE_KEY,
 } from "../constants";
-import {MenuShimmer} from "./Shimmer";
+import {MenuShimmer} from "./shimmer";
 
 const RestaurantMenu = () => {
   const { resId } = useParams(); // call useParams and get value of restaurant id using object destructuring
